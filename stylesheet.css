@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+h1 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 3px 0px 3px 0px;
+}
+h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+}
+
+h2 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0px 15px 0px;
+	font-family: "나눔고딕", "맑은 고딕", Garamond, "arial Unicode MS";
+}
+h4 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 15px 0px;
+	font-family: "나눔고딕", "맑은 고딕", Garamond, "arial Unicode MS";
+}
+
+a          { color: #0000CC; }
+a:visited  {
+	color: #333333;
+}
+a:hover    { color: black; }
+
+.container {
+	width: 1000px;
+	background:#FFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-image: url(images/background2.gif);
+	background-color: #000000;
+	background-repeat: repeat-x;
+}
+.cls {
+clear:both;
+}
+
+#logo-block {
+  height:126px;
+  width:601px;
+  float:left;
+  text-align:left;
+}
+
+#logo {
+  padding-top:44px;
+  line-height:40px;
+  font:48px Arial, "Times New Roman", Times;
+  padding-left:24px;
+  color:#5A5A5A;
+}
+
+#slogan {
+	font:14px Arial, "Times New Roman", Times;
+	color:#5A5A5A;
+	padding-left:60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.logoblue {
+color:#518BBA;
+}
+
+/* end logo and small slogan */
+/* top navigation bar */
+
+#top-nav-bg  {
+	background:transparent url(images/topnavbar970.gif) no-repeat top left;
+	height:38px;
+	width:970px;
+	margin-left: 15px;
+}
+
+	
+#top-nav {
+	height:38px;
+	width:970px;
+	font-family: "나눔고딕", "맑은 고딕", Garamond, "arial Unicode MS";
+}
+  
+#top-nav ul {
+	list-style:none;
+	padding-left:20px;
+	display: inline;
+}
+  
+#top-nav ul a {
+	background-image: url(images/topnavdivider.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 18px;
+	padding-left: 16px;
+	display: block;
+	line-height: 38px;
+	text-decoration: none;
+	font-family: "나눔고딕", "맑은 고딕", Garamond, "arial Unicode MS";
+	font-size: 16px;
+	color: #FFF;
+}
+	
+#top-nav ul a:hover {
+  color: #FDA041;
+  text-decoration: underline;
+}
+ 
+  #top-nav li {
+	float: left;
+
+	}
+	
+/* end top navigation bar */
+
+
+/* BANNER AREA */
+.bannerArea {
+	width: 1000px;
+}
+
+.bannerNav {
+	width: 900px;
+
+
+
+
+
+	#margin-bottom: 10px; /* for IE */
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "나눔고딕", "맑은 고딕", Garamond, "arial Unicode MS";
+	padding-bottom: 15px;
+}
+
+.bannerNav ul{
+	margin: 0px;
+}
+
+.bannerNav li{
+	list-style: none;
+	float:left;
+	margin: 0px 30px 0px 0px;
+
+
+
+	#margin-left: 20px; /* for IE */
+}
+
+.bannerNav a{
+	margin-left: 0px;
+	color: #000000;
+	text-decoration: none;
+}
+.bannerNav a:visited{
+	color: #000000;
+}
+
+.bannerNav a:hover{
+	color: #FF0000;
+}
+
+.bannersubnav {
+	padding-top: 20px;
+	padding-right: 10px;
+	float: right;
+	color: #3e75a6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bannersubnav a { color: #00FF00 text-decoration: none; padding-left: 5px; padding-right: 5px; }
+.bannersubnav a:visited { color: #3e75a6; }
+.bannersubnav a:hover { color: #000000; text-decoration: none; }
+
+
+.toplogo {
+	width:984px;
+	background:#FFF;
+	margin:0 auto 0 auto;
+}
+	
+/* end top navigation bar */
+
+
+.navigationArea {
+	width: 790px;
+	border-bottom: solid;
+	border-width: 0px;
+	padding-top: 15px;
+	padding-left: 15px;
+	float: left;
+	overflow: visible;
+}
+
+
+/* image of clouds with large header */
+
+#clouds {
+	background:url(images/logo2.jpg) no-repeat top left;
+	width:970px;
+	height:120px;
+	text-shadow:1px 1px 1px #000;
+	margin-top:9px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#clouds-slogan1 {
+	font:28px Georgia, Arial, "Times New Roman", Times;
+	padding:25px 15px 0px 130px;
+	color:#000000;
+	text-align:center;
+	letter-spacing:-2px;
+}
+#clouds-slogan2 {
+  font:32px Georgia, Arial, "Times New Roman", Times;
+  padding:0px 0px 0px 367px;
+  color:#FFF;
+  text-align:left;
+  letter-spacing:-2px;
+}
+
+/* end image of clouds with large header */
+/* right menu, navigation, newsletter */
+
+
+
+#right-nav {
+	float:right;
+	width:170px;
+	text-align:left;
+	padding-right: 15px;
+	padding-top: 30px;
+	
+}
+
+.right-nav-back {
+	background: #FFF url(images/right-menu-bg170.gif) repeat-y top left;
+
+}
+
+.right-nav-top {
+	background:#000 url(images/right-menu-top170-2.gif) no-repeat top left;
+	width:170px;
+	height:36px;
+}
+.right-nav-top p {
+	color:#FFF;
+	font:18px Arial, "Times New Roman", Times;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.right-nav-bottom {
+	background:#FFF url(images/right-menu-bottom170.gif) no-repeat top left;
+	width:170px;
+	height:8px;
+	padding-bottom:7px;
+}
+  
+#right-nav ul
+{
+	list-style:none;
+	text-align:left;
+	padding-top:10px;
+	display: inline;
+}
+  
+#right-nav li a
+{
+	background-image: url(images/right-menu-div.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display:block;
+	padding:10px 0px 15px 5px;
+	line-height:20px;
+	text-decoration: none;
+	color: #494949;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	text-align: left;
+}
+  
+#right-nav li a:hover
+{
+  color:#C46A00;
+  text-decoration: underline;
+}
+  
+.right-nav-divider {
+	background: transparent url(images/menu-divider170.gif) no-repeat top left;
+	width:160px;
+	height:1px;
+	padding-bottom:25px;
+}
+
+
+/* end right menu, navigation, newsletter */
+
+/* 스크립트 구동용 */
+.Foot-content {
+width: 1000px;
+clear: both;
+}
+
+/* CONTENT AREA */
+
+.contentArea {
+	width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-image: url(../images/page-background.jpg) no-repeat top left;
+	clear: both;
+}
+
+.contentleft {
+	width: 475px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.contentright {
+	width: 475px;
+	float: right;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.imageright {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: right;	
+}
+.imageleft {
+	margin-right: 30px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+
+/* FOOTER AREA */
+.footerArea {
+	clear:both;
+	background:#000 url(images/footer.gif) repeat-x top left;
+	width: 1000px;
+	height: 50px;
+}
+
+.copyright {
+	border-top: dotted;
+	border-color: #75570b;
+	border-width: 2px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 12px;
+	font-size: 12px;
+	color:#929292; 
+}
